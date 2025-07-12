@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="methods" name="Failed suite [Suite]">
+  <test thread-count="2" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.appium.two.app.AppiumBasic">
+        <methods>
+          <include name="swipe1"/>
+          <include name="configureAppiumServer"/>
+          <include name="DeviceRotate"/>
+          <include name="scrollDeom3"/>
+          <include name="tearDown"/>
+          <include name="closeServer"/>
+          <include name="firstTest"/>
+          <include name="beforeRun"/>
+          <include name="createDriver"/>
+          <include name="scrollDeom2"/>
+          <include name="swipe2"/>
+          <include name="GesturesLongClick"/>
+        </methods>
+      </class> <!-- com.appium.two.app.AppiumBasic -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
